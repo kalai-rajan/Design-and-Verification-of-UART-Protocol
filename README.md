@@ -3,7 +3,7 @@ In this project, UART protocol is designed to send and receive 8 bit data serial
 A Testbench devoloped using System verilog based on Sytem verilog Testbench Architecture is used to verify the
 functionality of the design. The Testbench and design are simulated using Questasim & Modelsim tools.
 
-#Verification Results
+#  Verification Results
 
 ![image](https://github.com/kalai-rajan/Design-and-Verification-of-UART-Protocol/assets/127617640/727f1804-cbd6-4b6b-8ce0-e5c1583bd7ac)
 
