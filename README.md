@@ -9,5 +9,5 @@ functionality of the design. The Testbench and design are simulated using Questa
 
 The testbench was devoloped using the System Verilog Testbench Architecture and it was executed in Questasim.
 
-[click here to execute the Testebench code in EDA Playground] (https://www.edaplayground.com/x/hJ2w).
+[click here to execute the Testebench code in EDA Playground](https://www.edaplayground.com/x/hJ2w).
 
