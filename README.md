@@ -11,9 +11,20 @@ functionality of the design. The Testbench and design are simulated using Questa
 
 # Simulation of design
 
-**RECEIVER MODULE SIMULATION**  
+**RECEIVER MODULE SIMULATION**    
 
-![image](https://github.com/kalai-rajan/Design-and-Verification-of-UART-Protocol/assets/127617640/1aa06704-374d-461a-a629-d597d3b83efd)
+![image](https://github.com/kalai-rajan/Design-and-Verification-of-UART-Protocol/assets/127617640/1aa06704-374d-461a-a629-d597d3b83efd)  
+
+
+**Transmitter MODULE SIMULATION**    
+
+ ![image](https://github.com/kalai-rajan/Design-and-Verification-of-UART-Protocol/assets/127617640/373f7e11-870e-4a28-a027-a756850ec3c3)    
+
+
+**Simulation results of both modules for multiple runs**
+ ![image](https://github.com/kalai-rajan/Design-and-Verification-of-UART-Protocol/assets/127617640/b6fff92e-5987-4812-8086-3fb86837b925)  
+
+
 
 #  Verification of design using SV
 
