@@ -22,6 +22,7 @@ functionality of the design. The Testbench and design are simulated using Questa
 
 
 **Simulation results of both modules for multiple runs**
+
  ![image](https://github.com/kalai-rajan/Design-and-Verification-of-UART-Protocol/assets/127617640/b6fff92e-5987-4812-8086-3fb86837b925)  
 
 
