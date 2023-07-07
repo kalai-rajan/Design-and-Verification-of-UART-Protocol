@@ -9,7 +9,7 @@ In this project, UART protocol is designed to send and receive 8 bit data serial
 A Testbench devoloped using System verilog based on Sytem verilog Testbench Architecture is used to verify the
 functionality of the design. The Testbench and design are simulated using Questasim & Modelsim tools.
 
-#Challenges  faced and its solution
+# Challenges  faced and its solution
 The initial testbench designed using devoloped using the System Verilog Testbench Architecture appeared in a  
 way that the testbench wasn't synchronized, so the some transections failed, and some transection succeded.    
 After debugging the code the failure or  inappropirate results wasn't due to the TB, it was due to the error in design.
