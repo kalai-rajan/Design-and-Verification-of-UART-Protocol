@@ -1,4 +1,4 @@
-#Files description
+#  Files description  
 uart_rx.sv contains design of receiver module and linear testbench to test the receiver module.  
 uart_tx.sv contains design of transmitter module and linear testbench to test the transmitter module.  
 uart_design_top.sv contains the top module for the UART design module.  
