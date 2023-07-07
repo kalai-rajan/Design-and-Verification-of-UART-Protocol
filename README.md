@@ -1,3 +1,9 @@
+#Files description
+uart_rx.sv contains design of receiver module and linear testbench to test the receiver module.  
+uart_tx.sv contains design of transmitter module and linear testbench to test the transmitter module.  
+uart_design_top.sv contains the top module for the UART design module.  
+uart_tb_top.sv contains the top module of the tb devoloped using the System Verilog Testbench Architecture.  
+
 # Design-and-Verification-of-UART-Protocol
 In this project, UART protocol is designed to send and receive 8 bit data serially using Verilog  HDL. 
 A Testbench devoloped using System verilog based on Sytem verilog Testbench Architecture is used to verify the
