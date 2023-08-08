@@ -22,12 +22,8 @@ reg baud_clock;
 always @(posedge clk or posedge rst) begin
     if (rst) begin
         baud_count<=10'd0;
-        state<=idle;
-        data_count<=4'd0;
-        data_reg<=8'b0;
         baud_clock<=1'b0;
-        sampler<=5'd0;
-        rx_done<=0;
+        
      end
 
     else if (baud_count==count) begin
@@ -45,8 +41,16 @@ always @(posedge clk or posedge rst) begin
      end
 end
 
-always @(posedge baud_clock) begin
-        case (state)
+always @(posedge baud_clock or posedge rst) begin
+    if (rst) begin  
+        state<=idle;
+        data_count<=4'd0;
+        data_reg<=8'b0;
+        sampler<=5'd0;
+        rx_done<=0;
+     end
+     else 
+		  case (state)
 
             idle: begin
                 
