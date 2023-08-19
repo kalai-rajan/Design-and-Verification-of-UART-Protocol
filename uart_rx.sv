@@ -76,7 +76,7 @@ always @(posedge baud_clock or posedge rst) begin
 
             data: begin
                 if(data_count==4'd8) begin
-                    
+                    data_count<=0;
                     sampler<=5'd1;
                     state<=stop;
                 end
