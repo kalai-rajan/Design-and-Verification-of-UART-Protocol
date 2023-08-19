@@ -155,6 +155,10 @@ always @(posedge baud_clock) begin
                     state<=data;
                     sampler<=5'd0;
                 end
+	        else if (sampler==sample/2 && rx!=1'b0) begin
+                    state<=idle;
+                    sampler<=5'd0;
+                end
                 else begin
                     sampler<=sampler+1'b1;
                     state<=start;
